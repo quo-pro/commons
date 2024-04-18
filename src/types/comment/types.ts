@@ -1,3 +1,4 @@
+import { IPost } from '../post';
 import { IUser } from '../user';
 
 export interface IComment {
@@ -6,5 +7,6 @@ export interface IComment {
   updatedAt: string;
 
   user: IUser;
+  post: IPost;
   content: string;
 }
