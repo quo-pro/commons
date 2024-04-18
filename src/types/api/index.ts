@@ -1,1 +1,1 @@
-export { IQueryResponse, IHttpResponse, IMetrics, IQuery } from './types';
+export { IQueryResponse, IHttpResponse, IQuery } from './types';

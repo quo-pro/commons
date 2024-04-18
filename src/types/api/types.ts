@@ -12,11 +12,6 @@ export interface IQueryResponse<TData = any> {
   totalRecordsPerPage: number;
   currentPage: number;
   data: TData[];
-  metrics?: IMetrics;
-}
-
-export interface IMetrics {
-  [key: string]: any;
 }
 
 export type IQuery<T = any> = T & {
