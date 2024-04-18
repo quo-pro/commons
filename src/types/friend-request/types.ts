@@ -6,8 +6,8 @@ export interface IFriendRequest {
   createdAt: string;
   updatedAt: string;
 
-  senderId: IUser;
-  receiverId: IUser;
+  sender: IUser;
+  receiver: IUser;
   status: FRIEND_REQUEST_STATUS_TYPE
 }
 

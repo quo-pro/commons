@@ -4,8 +4,8 @@ export interface IFriendRequest {
     _id: string;
     createdAt: string;
     updatedAt: string;
-    senderId: IUser;
-    receiverId: IUser;
+    sender: IUser;
+    receiver: IUser;
     status: FRIEND_REQUEST_STATUS_TYPE;
 }
 export declare type FRIEND_REQUEST_STATUS_TYPE = (typeof FRIEND_REQUEST_STATUS_LIST)[number];
