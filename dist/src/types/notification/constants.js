@@ -5,6 +5,7 @@ exports.NOTIFICATION_LIST = [
     'FRIEND_REQUEST',
     'MESSAGE',
     'POST',
+    'STATUS_UPDATE'
 ];
 exports.NOTIFICATION_STATUS_LIST = [
     'UNREAD',
