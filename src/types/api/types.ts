@@ -20,7 +20,6 @@ export type IQuery<T = any> = T & {
   page: number;
   sort_by: keyof T;
   order_by: -1 | 1 | 'asc' | 'ascending' | 'desc' | 'descending';
-  role: USER_ROLES_TYPE;
   status: string;
   startDate?: string;
   endDate?: string;

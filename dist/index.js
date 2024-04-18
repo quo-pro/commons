@@ -21,3 +21,5 @@ __exportStar(require("./src/types/file"), exports);
 __exportStar(require("./src/types/friend"), exports);
 __exportStar(require("./src/types/friend-request"), exports);
 __exportStar(require("./src/types/notification"), exports);
+__exportStar(require("./src/types/post"), exports);
+__exportStar(require("./src/types/comment"), exports);

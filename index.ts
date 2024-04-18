@@ -5,3 +5,6 @@ export * from './src/types/file';
 export * from './src/types/friend';
 export * from './src/types/friend-request';
 export * from './src/types/notification';
+export * from './src/types/post';
+export * from './src/types/comment';
+
