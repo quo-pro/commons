@@ -7,4 +7,5 @@ export * from './src/types/friend-request';
 export * from './src/types/notification';
 export * from './src/types/post';
 export * from './src/types/comment';
+export * from './src/types/token';
 
