@@ -8,4 +8,6 @@ export * from './src/types/notification';
 export * from './src/types/post';
 export * from './src/types/comment';
 export * from './src/types/token';
+export * from './src/types/blocked-user';
+
 
