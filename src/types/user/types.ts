@@ -5,6 +5,7 @@ export interface IUser {
   createdAt: string;
   updatedAt: string;
 
+  userName: string;
   email: string;
   roles: USER_ROLES_TYPE[];
   displayName: string;
@@ -16,6 +17,7 @@ export interface IUser {
 
   /** Computed property or not saved to DB */
   followed: true;
+
 }
 
 

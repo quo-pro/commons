@@ -3,6 +3,7 @@ export interface IUser {
     _id: string;
     createdAt: string;
     updatedAt: string;
+    userName: string;
     email: string;
     roles: USER_ROLES_TYPE[];
     displayName: string;
