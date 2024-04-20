@@ -1,1 +1,1 @@
-export declare const FRIEND_REQUEST_STATUS_LIST: readonly ["PENDING", "ACCEPTED", "REJECTED"];
+export declare const FRIEND_REQUEST_STATUS_LIST: readonly ["PENDING", "ACCEPTED", "REJECTED", "WITHDRAWN"];
