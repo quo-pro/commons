@@ -1,5 +1,3 @@
-import { USER_ROLES_TYPE } from '../user';
-
 export interface IHttpResponse<TData = any> {
   status?: number;
   message?: string[] | string;

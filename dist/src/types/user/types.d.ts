@@ -10,4 +10,5 @@ export interface IUser {
     emailVerified: boolean;
     isActive: boolean;
     eulaAccepted: boolean;
+    followCount: number;
 }
