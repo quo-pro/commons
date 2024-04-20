@@ -1,6 +1,6 @@
 {
   "name": "@quo-pro/commons",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "A list of common interfaces, types and constants",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

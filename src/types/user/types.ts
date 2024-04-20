@@ -14,10 +14,6 @@ export interface IUser {
   isActive: boolean;
   eulaAccepted: boolean;
   followCount: number;
-
-  /** Computed property or not saved to DB */
-  followed: true;
-
 }
 
 
