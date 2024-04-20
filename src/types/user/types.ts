@@ -12,7 +12,10 @@ export interface IUser {
   emailVerified: boolean;
   isActive: boolean;
   eulaAccepted: boolean;
-  followCount: number
+  followCount: number;
+
+  /** Computed property or not saved to DB */
+  followed: true;
 }
 
 
