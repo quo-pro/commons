@@ -5,6 +5,7 @@ export interface INotification {
     createdAt: string;
     updatedAt: string;
     user: IUser;
+    sentBy: IUser;
     type: NOTIFICATION_TYPE;
     status: NOTIFICATION_STATUS_TYPE;
     ref: string;

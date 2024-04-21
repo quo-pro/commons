@@ -7,6 +7,7 @@ export interface INotification {
   updatedAt: string;
 
   user: IUser;
+  sentBy: IUser;
   type: NOTIFICATION_TYPE;
   status: NOTIFICATION_STATUS_TYPE;
   /**
