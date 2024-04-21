@@ -11,9 +11,9 @@ export interface INotification {
   type: NOTIFICATION_TYPE;
   status: NOTIFICATION_STATUS_TYPE;
   /**
-   * To hold reference to the actual record
+   * To hold reference to the record that triggered this notification to be created
    */
-  ref: string;
+  triggerRecordId: string;
   message: string;
 }
 

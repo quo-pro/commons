@@ -8,7 +8,7 @@ export interface INotification {
     sentBy: IUser;
     type: NOTIFICATION_TYPE;
     status: NOTIFICATION_STATUS_TYPE;
-    ref: string;
+    triggerRecordId: string;
     message: string;
 }
 export declare type NOTIFICATION_TYPE = (typeof NOTIFICATION_LIST)[number];
