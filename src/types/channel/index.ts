@@ -1,0 +1,1 @@
+export { IChannel } from './types';

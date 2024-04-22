@@ -7,4 +7,6 @@ export interface IPost {
     user: IUser;
     content: string;
     visibility: POST_VISIBILITY_TYPE;
+    commentCount: number;
+    likeCount: number;
 }
