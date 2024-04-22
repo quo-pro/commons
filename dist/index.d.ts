@@ -11,3 +11,4 @@ export * from './src/types/token';
 export * from './src/types/blocked-user';
 export * from './src/types/channel';
 export * from './src/types/message';
+export * from './src/types/flagged-content';

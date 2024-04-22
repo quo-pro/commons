@@ -27,3 +27,4 @@ __exportStar(require("./src/types/token"), exports);
 __exportStar(require("./src/types/blocked-user"), exports);
 __exportStar(require("./src/types/channel"), exports);
 __exportStar(require("./src/types/message"), exports);
+__exportStar(require("./src/types/flagged-content"), exports);
