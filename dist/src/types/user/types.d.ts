@@ -12,4 +12,5 @@ export interface IUser {
     isActive: boolean;
     eulaAccepted: boolean;
     followCount: number;
+    statusMessage: string;
 }
