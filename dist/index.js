@@ -25,3 +25,5 @@ __exportStar(require("./src/types/post"), exports);
 __exportStar(require("./src/types/comment"), exports);
 __exportStar(require("./src/types/token"), exports);
 __exportStar(require("./src/types/blocked-user"), exports);
+__exportStar(require("./src/types/channel"), exports);
+__exportStar(require("./src/types/message"), exports);
