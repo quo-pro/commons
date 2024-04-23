@@ -12,6 +12,8 @@ export interface IPost {
   commentCount: number;
   likeCount: number;
 
-  media: string[]
+  media: string[];
+
+  editorContent: any[]
 }
 
