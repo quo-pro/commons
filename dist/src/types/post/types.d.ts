@@ -9,4 +9,5 @@ export interface IPost {
     visibility: POST_VISIBILITY_TYPE;
     commentCount: number;
     likeCount: number;
+    media: string[];
 }
